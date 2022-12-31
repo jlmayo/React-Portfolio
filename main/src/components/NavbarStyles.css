@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  color: #fff;
+  background: #000;
 }
 
 .nav-menu {
@@ -36,6 +36,11 @@
     top: 0;
     left: 0;
     z-index: -3;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    left: 0;
   }
 
   .nav-menu li {
