@@ -1,18 +1,25 @@
 import React from 'react';
-import Header from './components/pages/Header';
-import Navigation from './components/pages/Navigation';
-import Project from './components/Project';
-import Form from './components/Form/Form';
-import Footer from './components/pages/Footer';
+import './index.css'
+import Home from './pages/Home'
+import About from './pages/About'
+import Project from './pages/Project'
+import Contact from './pages/Contact'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-export default function App() {
-    return (
-        <div>
-            <Header />
-            <Navigation />
-            <Project />
-            <Form />
-            <Footer />
-        </div>
-    );
+import { Routes, Route } from 'react-router-dom'
+
+
+function App() {
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </>
+  );
 }
+
+export default App;
