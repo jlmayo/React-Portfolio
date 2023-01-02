@@ -21,22 +21,22 @@ const Footer = () => {
             </div>
           </div>
           <div className="phone">
-            <h4>
+            <p>
               <FaMobile
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
               123.456.7890
-            </h4>
+            </p>
           </div>
           <div className="email">
-            <h4>
+            <p>
               <FaMailBulk
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
               <a href="mailto:jlmayo22@gmail.com">jlmayo22@gmail.com</a>
-            </h4>
+            </p>
           </div>
         </div>
 
@@ -47,17 +47,14 @@ const Footer = () => {
             Coding Bootcamp. Expected completion date is January 2023.
           </p>
           <div className="social">
-            <a href="https://github.com/jlmayo">
             <FaGithub
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
-            /></a>
-            <a href="www.linkedin.com/in/jlmayo22">
+            />
             <FaLinkedin
               size={30}
               style={{ color: "#fff", marginRight: "1rem" }}
             />
-            </a>
           </div>
         </div>
       </div>
