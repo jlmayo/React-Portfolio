@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import IntroImg from "../assets/CoffeeAndCodingLg.jpg";
 
-const HeroImage = () => {
+const HeroImg = () => {
   return (
     <div className="hero">
       <div className="mask">
@@ -25,4 +25,4 @@ const HeroImage = () => {
   );
 };
 
-export default HeroImage;
+export default HeroImg;
