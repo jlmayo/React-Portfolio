@@ -1,13 +1,8 @@
 import "./ResumeStyles.css";
-import React from 'react'
+import React from "react";
+import { Document } from 'react-pdf/dist/esm/entry.webpack5'
 
 const ResumeContent = () => {
-
-  function handleClick()
-  {
-       window.open("../assets/Resume.pdf","_blank");
-  }
-
   return (
     <div className="resume">
       <div className="resume-left">
@@ -16,7 +11,9 @@ const ResumeContent = () => {
       </div>
       <div className="resume-right">
         <div className="btn-container">
-            <button onClick={handleClick} className="btn">Resume</button>
+          <a href="../assets/Resume.pdf" download>
+            <button className="btn">Resume</button>
+          </a>
         </div>
       </div>
     </div>

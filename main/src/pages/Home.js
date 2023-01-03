@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import AboutContent from "../components/AboutContent";
 import ProjectCard from "../components/ProjectCard";
 import Form from "../components/Form";
+import ResumeContent from "../components/ResumeContent";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <AboutContent />
       <ProjectCard />
       <Form />
+      <ResumeContent />
       <Footer />
     </div>
   );
