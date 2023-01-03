@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.f65b630f.css",
+    "main.js": "/React-Portfolio/static/js/main.20f4436d.js",
+    "static/media/CoffeeAndCodingLg.jpg": "/React-Portfolio/static/media/CoffeeAndCodingLg.b37824377d2bef5f438c.jpg",
+    "static/media/Infinite Disc (1).jpg": "/React-Portfolio/static/media/Infinite Disc (1).b10dae4df9fec0e106c0.jpg",
+    "static/media/Avatar.png": "/React-Portfolio/static/media/Avatar.8004882bdefc0cf4a340.png",
+    "static/media/MayoResume.pdf": "/React-Portfolio/static/media/MayoResume.35a09a5ac77813e2a8c7.pdf",
+    "static/media/RANDOM PASSWORD.png": "/React-Portfolio/static/media/RANDOM PASSWORD.8e1915f540be78f5710d.png",
+    "static/media/Speedrunner.jpg": "/React-Portfolio/static/media/Speedrunner.78a6b329d2559953f733.jpg",
+    "static/media/OriginalPortfolio.png": "/React-Portfolio/static/media/OriginalPortfolio.538e662099682014f18f.png",
+    "static/media/E-Commerce (1).png": "/React-Portfolio/static/media/E-Commerce (1).ea117f2e053a50b41dc5.png",
+    "static/media/team profile generator (1).png": "/React-Portfolio/static/media/team profile generator (1).9ffb94bdf9dfd387d096.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.f65b630f.css.map": "/React-Portfolio/static/css/main.f65b630f.css.map",
+    "main.20f4436d.js.map": "/React-Portfolio/static/js/main.20f4436d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f65b630f.css",
+    "static/js/main.20f4436d.js"
+  ]
+}
