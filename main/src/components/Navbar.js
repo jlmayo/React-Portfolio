@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavbarStyles.css";
-import { NavLink } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
+
 /* import { FaBars, FaTimes } from "react-icons/fa"; */
 
 const Navbar = () => {
@@ -20,35 +21,60 @@ const Navbar = () => {
 
   return (
     <div className="header">
-      <NavLink to="/">
+      <NavHashLink to="/">
         <h1>Portfolio</h1>
-      </NavLink>
+      </NavHashLink>
       <ul className="nav-menu">
         <li>
-          <NavLink activeClassName="active" to="/">
+          <NavHashLink
+            activeClassName="selected"
+            activeStyle={{ color: "red" }}
+            smooth
+            to="/#hero"
+          >
             Home
-          </NavLink>
+          </NavHashLink>
         </li>
         <li>
-          <NavLink activeClassName="active" to="/about">
+          <NavHashLink
+            activeClassName="selected"
+            activeStyle={{ color: "red" }}
+            smooth
+            to="/#about"
+          >
             About
-          </NavLink>
+          </NavHashLink>
         </li>
 
         <li>
-          <NavLink activeClassName="active" to="/project">
+          <NavHashLink
+            activeClassName="selected"
+            activeStyle={{ color: "red" }}
+            smooth
+            to="/#project"
+          >
             Projects
-          </NavLink>
+          </NavHashLink>
         </li>
         <li>
-          <NavLink activeClassName="active" to="/contact">
+          <NavHashLink
+            activeClassName="selected"
+            activeStyle={{ color: "red" }}
+            smooth
+            to="/#form"
+          >
             Contact
-          </NavLink>
+          </NavHashLink>
         </li>
         <li>
-          <NavLink activeClassName="active" to="/resume">
+          <NavHashLink
+            activeClassName="selected"
+            activeStyle={{ color: "red" }}
+            smooth
+            to="/#resume"
+          >
             Resume
-          </NavLink>
+          </NavHashLink>
         </li>
       </ul>
     </div>

@@ -6,7 +6,9 @@ import ProjectCardData from "./ProjectCardData";
 const ProjectCard = () => {
   return (
     <div className="card-container">
-      <h1 className="project-heading">Projects</h1>
+      <h1 className="project-heading" id="project">
+        PROJECTS
+      </h1>
       <div className="project-container">
         {ProjectCardData.map((val, ind) => {
           return (

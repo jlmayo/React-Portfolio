@@ -1,11 +1,11 @@
 import "./HeroImgStyles.css";
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import IntroImg from "../assets/CoffeeAndCodingLg.jpg";
 
-const HeroImg = () => {
+const HeroImage = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="mask">
         <img className="intro-img" src={IntroImg} alt="IntroImg" />
       </div>
@@ -13,16 +13,16 @@ const HeroImg = () => {
         <p>Jennifer Mayo</p>
         <h1>Student Developer</h1>
         <div>
-          <Link to="/project" className="btn">
+          <HashLink smooth to="/#project" className="btn">
             Projects
-          </Link>
-          <Link to="/contact" className="btn btn-light">
+          </HashLink>
+          <HashLink smooth to="/#form" className="btn btn-light">
             Contact
-          </Link>
+          </HashLink>
         </div>
       </div>
     </div>
   );
 };
 
-export default HeroImg;
+export default HeroImage;

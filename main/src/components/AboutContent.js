@@ -4,12 +4,11 @@ import Avatar from "../assets/Avatar.png";
 
 const AboutContent = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="left">
         <h1>Hi. I'm Jen.</h1>
         <p>
-          After many tech side projects over the years, I finally took the
-          plunge and enrolled in a full-stack web development bootcamp.
+          After many tech side projects over the years, I finally enrolled in a full-stack web development bootcamp. This application is a showcase of my work.
         </p>
         <Link to="/contact">
           <button className="btn">Contact</button>

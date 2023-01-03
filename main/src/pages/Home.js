@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import HeroImg from "../components/HeroImg";
+import HeroImage from "../components/HeroImage";
 import Footer from "../components/Footer";
 import AboutContent from "../components/AboutContent";
 import ProjectCard from "../components/ProjectCard";
@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg />
+      <HeroImage />
       <AboutContent />
       <ProjectCard />
       <Form />
