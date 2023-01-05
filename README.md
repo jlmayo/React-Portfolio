@@ -4,8 +4,9 @@
 * [The Scenario](#the-scenario)
 * [Requirements Met](#requirements-met)
 * [Requirements Outstanding](#requirements-outstanding)
-* [Result](#result)
+* [Usage](#usage)
 * [Contributors](#contributors)
+* [Completed Project](#completed-project)
 
 
 ### **The Scenario**
@@ -14,18 +15,15 @@ The task for this assignment was to create an updated version of the student por
 ### **Requirements Met**
 * The portfolio contains the developer's name, a recent photo, links to sections about them, their work, and their contact information.
 * Clickable links in the navigation bar scroll through the UI to the appropriate sections
-* Clicking on the Work link scrolls to a section that features titled images of the developer's applications
-* In the Work section, the first clickable image is larger than the others and navigation points to the developer's first application
-* In the Work section, the smaller, clickable images point to other deployed applications
+* Portfolio contains a Header, Navigation Bar, Footer, and sections for content pertaining to the developer's biography, a showcase of her best work, and a contact form.
 
 ### **Requirements Outstanding**
-* At first attempt, responsive layout is not functional
-* No comments have yet been made in the HTML or CSS
+* At first attempt, responsive layout is functional but incomplete.
+* The difference between NavLink and HashLink meant that I had to choose between the acceptance criteria of scrolling through the single page app or having the link remain highlighted on the current page. I chose scroll because I couldn't figure out how to do both.
 
-### **Result**
-Most of the requirements were met. If grading occurs before I can add responsive layout, then I will submit an additional attempt once I have a chance to solicit help from tutors, instructors, or classmates.
+ ### Usage
 
-The web page is very basic for now, but there is time and room to grow as I learn new skills.
+This portfolio is intended to showcase the developer's work and to thereby present it to future employers.
 
 ### **Contributors**
 In order to learn how to do this from start to finish, I coded along with [this tutorial](https://youtu.be/0h2b4ftbZcU). I made adjustments for style and to meet acceptance criteria.
@@ -33,5 +31,5 @@ In order to learn how to do this from start to finish, I coded along with [this 
 You can find my site at [Jennifer Mayo's Portfolio](https://jlmayo.github.io/React-Portfolio/)
 
 ## **Completed Project**
-![Screenshot of Professional Portfolio Web Page](https://github.com/jlmayo/React-Portfolio/blob/main/src/assets/ReactPortfolioScreenshot.png)
+![Screenshot of Professional Portfolio Web Page]() :) :)
 
