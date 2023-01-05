@@ -31,5 +31,5 @@ In order to learn how to do this from start to finish, I coded along with [this 
 You can find my site at [Jennifer Mayo's Portfolio](https://jlmayo.github.io/React-Portfolio/)
 
 ## **Completed Project**
-![Screenshot of Professional Portfolio Web Page]() :) :)
+![Screenshot of Professional Portfolio Web Page]() 
 
