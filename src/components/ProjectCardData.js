@@ -4,6 +4,7 @@ import TeamGen from "../assets/team profile generator (1).png";
 import ECommerce from "../assets/E-Commerce (1).png";
 import RandomPG from "../assets/RANDOM PASSWORD.png";
 import OriginalPortfolio from "../assets/OriginalPortfolio.png";
+import SmackTalkToe from "../assets/smackTalkToeP.png";
 
 const ProjectCardData = [
   {
@@ -21,6 +22,14 @@ const ProjectCardData = [
       "Infinite Disc is a full-stack application designed for use by a music retailer for the internal tracking of inventory. This secure database system requires an authenticated log in to access the inventory. Registered users may retrieve current inventory or add new albums.",
     view: "https://infinite-disc.herokuapp.com/",
     source: "https://github.com/mrgreen12375/infinite-disc"
+  },
+  {
+    imgsrc: SmackTalkToe,
+    title: "Smack Talk Toe",
+    text:
+      "Have you ever wanted to add some spice and variety to your Tic-Tac-Toe games? Do you have a really boring office meeting and have a few minutes to kill? Smack-Talk-Toe has you covered! Smack-talk players when they inevitably lose to your superior Tic-Tac-Toe prowess, and let them know they bring shame to their ancestors. Smack-Talk-Toe is great to play with friends, family and/or frenemies! 🔥🔥🔥",
+    view: "https://salty-castle-59845.herokuapp.com/",
+    source: "https://github.com/jlmayo/smackTalkToe"
   },
   {
     imgsrc: OriginalPortfolio,
