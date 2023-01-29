@@ -27,7 +27,7 @@ const ProjectCardData = [
     imgsrc: SmackTalkToe,
     title: "Smack Talk Toe",
     text:
-      "Have you ever wanted to add some spice and variety to your Tic-Tac-Toe games? Do you have a really boring office meeting and have a few minutes to kill? Smack-Talk-Toe has you covered! Smack-talk players when they inevitably lose to your superior Tic-Tac-Toe prowess, and let them know they bring shame to their ancestors. Smack-Talk-Toe is great to play with friends, family and/or frenemies! 🔥🔥🔥",
+      "Have you ever wanted to add some spice and variety to your Tic-Tac-Toe games? Do you have a really boring office meeting and have a few minutes to kill? Smack-Talk-Toe has you covered! Smack-talk players when they inevitably lose to your superior Tic-Tac-Toe prowess, and let them know they bring shame to their ancestors. Smack-Talk-Toe is great to play with friends, family and/or frenemies!",
     view: "https://salty-castle-59845.herokuapp.com/",
     source: "https://github.com/jlmayo/smackTalkToe"
   },
